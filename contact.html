@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somesh Fitness GYM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg">
+            <div class="span">SOMESH FITNESS GYM</div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="index.html">Membership</a></li>
+            <li><a href="index.html">Facilities</a></li>
+            <li><a href="index.html">Clients</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<section id="contact">
+    <h1>GET SPECIAL
+        MEMBERSHIP OFFER*</h1>
+    <form action="backend.php">
+        <div class="entry">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <label> Gender:</label>
+            <div class="gender">
+                Male<input type="radio" name="gender" id="gender">
+                Female<input type="radio" name="gender" id="gender">
+                Other<input type="radio" name="gender" id="gender">
+            </div>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <label for="phone">Phone Number:</label>
+            <input type="number" name="phone" id="phone" placeholder="Enter Your Phone Number">
+            <label for="members">Membership:</label>
+            <div class="mship">
+                Annualy<input type="radio" name="members" id="members">
+                Monthly<input type="radio" name="members" id="members">
+                Quarterly<input type="radio" name="members" id="members">
+                Biannualy<input type="radio" name="members" id="members">
+            </div>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter Message For Us"></textarea>
+            <div class="bt">
+                <input type="submit" value="Submit" class="btn">
+                <input type="reset" value="Reset" class="btn">
+            </div>
+        </div>
+
+    </form>
+</section>
+<footer>
+    <div class="center">
+        Copyright &copy; www.SomeshFitnessGYM.com. All rights reserved!
+    </div>
+</footer>
+</body>
+</html>

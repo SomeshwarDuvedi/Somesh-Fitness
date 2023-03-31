@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo img{
+    width: 100px;
+    height: 60px;
+    border: 3px solid rgb(150, 112, 112);
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-left: 38px;
+    
+}
+.span{
+    margin-left: 22px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+nav::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+nav ul li{
+    list-style:none;
+    font-size: 1.8rem;
+}
+nav ul li a{
+    color: white;
+    padding: 5px 32px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+
+}
+#navbar li a:hover{
+    background-color: black;
+    text-decoration: underline;
+}
+nav ul li a.active{
+    background-color: white;
+    color: black;
+}
+#home::before{
+    content: "";
+    background-image: url('bg.jpg');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 701px;
+    z-index: -1;
+    opacity: 0.7;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    margin-bottom: 250px;
+}
+#home h1{
+    font-size: 3.8rem;
+}
+.para{
+    font-size: 2.8rem;
+    font-family: 'Tangerine', cursive;
+}
+.par{
+    font-size: 2.8rem;
+
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services h1{
+    font-size: 3.8rem;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+#services::before{
+    content: "";
+    background-color: rgb(16, 214, 198);
+    position: absolute;
+    height: 2050px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid burlywood;
+    padding: 23px 34px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+
+}
+.box h2{
+    font-size: 3.0rem;
+    padding-bottom: 30px;
+}
+.box p{
+    font-size: 2.5rem;
+    font-family: 'Tangerine', cursive;
+    margin: 10px;
+    text-align: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#membership::before{
+    content: "";
+    background: url('bg3.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 847px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.offer {
+    text-align: center;
+    
+}
+.offer h1,h2,h3{
+    margin :10px; 
+    font-size: 1.8rem;
+}
+.offer h1{
+    font-size: 3rem;
+}
+.offer h2,h3{
+    color: red;
+}
+.membox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.membox h3{
+    color: black;
+}
+.member{
+    margin: 12px 23px;
+    padding: 22px 33px;
+    text-align: center;
+}
+.member{
+    font-size: 2rem;
+}
+.member .price {
+    color: red;
+}
+.member h4{
+    font-size: 2.3rem;
+    color: white;
+    font-family: 'Tangerine', cursive;
+}
+#facilities::before{
+    content: "";
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#facilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hd{
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+.fact{
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+    grid-gap: 3rem;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(246, 250, 0);
+    font-family: 'Tangerine', cursive;
+}
+.item img{
+    height: 80px;
+    width: 80px;
+    margin-right: 16px;
+}
+#clients{
+    height: 400px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clients h1{
+    font-size: 3.8rem;
+    margin: 10px;
+}
+#sponcer{
+    padding: 25px;
+}
+#sponcer img{
+    height: 180px;
+    width: 300px;
+    margin: 25px;
+}
+
+.center{
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+
